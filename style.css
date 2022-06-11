@@ -1,0 +1,52 @@
+    textarea {
+        border-radius: 15px;
+        border: transparent;
+        outline: none;
+        padding: 20px 15px;
+        width: 80%;
+    }
+    .bar{
+        background: transparent;
+        border: transparent;
+        transition: all 0.3s linear;
+    }
+
+    .sidebar {
+        position: absolute;
+        transition: all 0.3s linear;
+        /* width: 25%; */
+        min-height: 500px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .sidebar-head {
+        background-color: black;
+        border-top-right-radius: 20px;
+    }
+
+    .main-section {
+        position: absolute;
+        left: 150px;
+    }
+
+    .main-section-head {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .asset-heading {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .asset-body {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    li{
+        list-style: none;
+    }
+    .task-items li{
+        padding: 9px 5px;
+        border-top: 1px solid gray;
+    }
